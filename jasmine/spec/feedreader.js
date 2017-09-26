@@ -50,8 +50,8 @@ $(function() {
              var feedName = feed.name;
              expect(feedName).toBeDefined();
              expect(feedName.length).not.toBe(0);
-           })
-         })
+           });
+         });
     });
 
 
